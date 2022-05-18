@@ -6,11 +6,15 @@ window.title("Mile to Km Converter")
 window.minsize(width=500, height=300)
 
 # miles entry
-entry = Entry(width=30)
-entry.insert(END, string="0")
+miles_entry = Entry(width=30)
+miles_entry.insert(END, string="0")
 #Gets text in entry
-print(entry.get())
-entry.pack()
+print(miles_entry.get())
+miles_entry.pack()
+
+
+miles_label = Label(text="Miles")
+miles_label.pack()
 
 
 
